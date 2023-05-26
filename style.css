@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700%display=swap');
 
 :root{
-    --red:#FFA500;
-    --img: #f8ca68e3;
+    /* --red:crimson; */
+    --red: #dc143c;
+    --img: #d47487;
 }
 *{
     font-family: 'Nunito', sans-serif;
@@ -99,9 +100,9 @@ header{
 }
 
 header .logo{
-    font-size: 3rem;
-    font-weight: bolder;
-    color: #666;
+    font-size: 3.2rem;
+    /* font-weight: bolder; */
+    color: #333;
 }
 
 header .logo i{
@@ -110,17 +111,15 @@ header .logo i{
 }
 
 header .navbar a{
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-left: 2rem;
-    /* color: #666;
-    border-bottom: 3px solid var(--red); */
-    color: var(--red);
+    color: #333;
 }
 
 header .navbar a:hover{
     color: var(--red);
-    color: #666;
-    border-bottom: 3px solid var(--red);
+    color: var(--red);
+    border-bottom: 1px solid var(--red);
 }
 
 #menu-bar{
@@ -243,7 +242,7 @@ img{
 .icons .icon{
     display: inline-block;
     padding: .2rem 2rem;
-    color: var(--red);
+    /* color: var(--red); */
     cursor: pointer;
     font-size: 3rem;
     border-radius: .5rem;
@@ -251,6 +250,11 @@ img{
     overflow: hidden;
     z-index:0;
     margin-top: 1rem;
+    color: #333;
+}
+
+.icon:hover{
+    color: var(--red);
 }
 
 .icons::before{

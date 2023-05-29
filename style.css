@@ -511,6 +511,9 @@ img{
     top: 0;
 } 
 
+.contact{
+    margin-bottom: 1.5rem;
+}
 .contact .heading{
     padding-top: 3rem;
 }
@@ -518,7 +521,7 @@ img{
 .contact .row{
     padding: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    background: linear-gradient(45deg, rgba(216, 46, 8, 0.085), rgba(62, 7, 189, 0.126));;
+    background: linear-gradient(45deg, rgba(216, 46, 8, 0.085), rgba(62, 7, 189, 0.126));
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -593,6 +596,43 @@ img{
 .contact .row form .btn:hover{
     background: var(--red);
 }
+
+.footer{
+    background: linear-gradient(45deg, rgba(62, 7, 189, 0.126), var(--img));
+    text-align: center;
+}
+
+.footer h1{
+    padding: 1rem 1rem;
+    color: #333;
+    font-weight: normal;
+    font-size: 2rem;   
+    text-transform: capitalize;
+}
+
+.footer h1 span{
+    color: var(--red);
+}
+
+#scroll-top{
+    position: fixed;
+    top: -120%;
+    right: 3rem;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    /* background: linear-gradient(45deg, var(--img), rgba(62, 7, 189, 0.126)); */
+    background: var(--img);
+    color: #fff;
+    border: .1rem solid var(--red);
+    border-radius: 50%;
+    transition: 1s linear;
+    z-index: 1000;
+}
+
+#scroll-top.active{
+    top: calc(100% - 13rem);
+}
+
 
 
 

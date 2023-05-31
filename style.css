@@ -268,10 +268,10 @@ img{
     z-index: -1;
 }
 
-.about{
+/* .about{
     width: 99.2vw;
     height: 100vh;
-}
+} */
 
 .about p{
     font-size:2rem;
@@ -295,7 +295,7 @@ img{
 }
 
 .about .box-container{
-    padding: 2.5rem 0;
+    /* padding: 2.5rem 0; */
     display: flex;
     flex-wrap: wrap;
     gap:2rem;
@@ -305,9 +305,8 @@ img{
     flex: 1 1 30rem;
     position: relative;
     overflow: hidden;
-    size:fixed;
     box-shadow: -10px -10px 15px rgba(0, 0,0, .1), 8px 8px 20px rgba(0,0,0,0.5);
-    border: none solid rgba(0,0,0,.3);
+    border: .1rem solid rgba(0,0,0,.3);
     cursor: pointer;
     border-radius: 1rem;
 }
@@ -327,7 +326,6 @@ img{
 
 .about .box-container .box .content{
     text-align: center;
-    padding-top: 20%;
     padding: 2rem 2rem;
     color: #333;
     padding-top: 30%;
@@ -368,9 +366,9 @@ img{
     transform: translateY(100%);
 }
 
-.skills{
+/* .skills{
     height: 100vh;
-}
+} */
 
 .skills .heading{
     padding: 3rem;
@@ -443,9 +441,9 @@ img{
 
 .s-j div{width: 27.6vw;}.s-ps div{width: 26.1vw;}.s-r div{width: 27.6vw;}.s-c div{width: 27.6vw;}.s-js div{width: 26.1vw;}.s-h div{width: 27.6vw;}.s-ms div{width: 26.1vw;}
 
-.projects{
+/* .projects{
     height: 100vh;
-}
+} */
 
 .projects .heading{
     padding: 3rem;
@@ -634,6 +632,7 @@ img{
 }
 
 /* media queries */
+
 @media(max-width:991px){
 
     html{
@@ -672,7 +671,7 @@ img{
         display: block;
         border: .2rem solid rgba(0,0,0,.1);
         border-left: .5rem solid var(--red);
-        background: #fff;
+        background: linear-gradient(45deg, rgba(216, 46, 8, 0.085), rgba(62, 7, 189, 0.126));
     }
 }
 

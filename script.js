@@ -20,7 +20,7 @@ window.onscroll =() =>{
 
 function sendEmail(){
     Email.send({
-      SecureToken: "686652f2-3caf-4557-a553-aa665220acb9",
+      SecureToken: "686652f2-3caf-4557-a553-aa665220acb996666",
       To : 'prajapatis1201@gmail.com',
       From : "prajapatis1201@gmail.com",
       Subject : document.getElementById('subject').value,

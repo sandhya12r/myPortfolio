@@ -2,8 +2,10 @@
 
 :root{
     /* --red:crimson; */
-    --red: #dc143c;
-    --img: #d47487;
+    /* --red: #dc143c;
+    --img: #d47487; */
+    --red: #000;
+    --img: #0000009f;
 }
 *{
     font-family: 'Nunito', sans-serif;
